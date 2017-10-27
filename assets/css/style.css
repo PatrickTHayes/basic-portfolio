@@ -1,6 +1,13 @@
-h2,
+h2 {
+    color: #4aaaa5;
+    font-size: 24px;
+    font-family: 'Georgia', Times, "Times New Roman", serif;
+    padding: 20px 0px;
+}
+
 h3 {
     color: #4aaaa5;
+    font-size: 20px;
     font-family: 'Georgia', Times, "Times New Roman", serif;
 }
 
@@ -14,15 +21,16 @@ p {
 }
 
 a {
+    text-decoration: none;
     color: #777777;
 }
 
 body {
+    background-image: url("../images/cloth.png");
     color: #777777;
     font-family: 'Arial', 'Helvetica Neue', Helvetica, sans-serif;
     font-size: 16px;
-    background-image: url("/basic-portfolio/assets/images/cloth.png");
-    /*background image wont take for some reason*/
+
     width: 960px;
 }
 
@@ -48,8 +56,9 @@ body {
 .headcontactblock {
     float: right;
     margin-right: 70px;
-    width: 200px;
-    padding: 24px 0px;
+    width: 240px;
+    padding: 20px 0px;
+    font-size: 18px;
 }
 
 .bodycontainer {
@@ -58,13 +67,15 @@ body {
     border-width: 1px;
     border-style: solid;
     width: 550px;
-    margin: 40px 40px 40px 100px;
+    margin: 30px 30px 30px 90px;
     line-height: 150%;
     float: left;
+    padding: 10px;
 }
 
 .image1 {
     float: left;
+    padding-right: 10px;
 }
 
 .sidebarcontainer {
@@ -75,10 +86,39 @@ body {
     border-style: solid;
     width: 180px;
     margin-top: 40px;
+    padding: 10px;
 }
+
+.submit {
+    width=40px;
+    color: white;
+    background-color: #4aaaa5;
+}
+
+.pfimages {
+    padding: 30px;
+}
+
+input {
+    width: 100%;
+    padding: 12px 20px;
+    box-sizing: border-box;
+    border: 2px solid #ccc;
+    border-radius: 4px;
+    background-color: #f8f8f8;
+    resize: none;
+}
+
+.input2 {
+    height: 100px;
+}
+
+
 
 .footer {
     clear: both;
+    color: white;
+    font-size: 12px;
     background-color: #666666;
     border-style: solid;
     border-top-width: 5px;
